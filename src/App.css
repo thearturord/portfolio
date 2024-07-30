@@ -1,0 +1,333 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+#root{
+  display:flex;
+  flex-direction: column;
+}
+
+.block{
+  display: block;  
+  background-color: grey;
+}
+
+.header-contact{
+  background-color: #1f2024;
+  height: 50px;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+}
+
+.header-contact p{
+  color:white !important;
+  margin: 0;
+}
+
+.social-icon{
+  color:white;
+  padding: 5px;
+  transition: all 0.5s ease;
+} 
+
+.social-icon:hover{
+  transform: translateY(-1px);
+}
+
+.welcome{
+  color:white;
+  height: 638px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-end;
+  padding: 159px;
+}
+
+.skill-set{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill-set-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.skill-set-wrap{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 0 10%;
+}
+
+.skill-set-row{
+  padding: 15px 0;
+}
+
+.single-skill{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px;
+  transition: all 0.5s ease;  
+}
+
+.single-skill:hover{
+  transform: translateY(-8px);
+  box-shadow: 5rem 0;
+}
+
+.skill{
+  padding-top: 10px;
+}
+
+.skill-content{
+  text-align: center;
+  width: 72%;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeee;
+}
+
+.about-title h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;  
+}
+
+.about-title-p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.about-img-wrap{
+  padding: 50px;
+}
+
+.about-img{
+  width: 35em;
+}
+
+.apps-a{
+  text-decoration: none;
+  color: black;
+}
+
+.apps{
+  background-color: white;
+  padding: 50px 25px;
+}
+
+.apps-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+
+.apps-header h2{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-left:10%;
+}
+
+.apps-header a{
+  margin-right:10%;
+}
+
+.app-img-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.app-img-wrap img{
+  width: 100%;
+}
+
+.app-name h3{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.appSkillWrap{
+  text-align: center;
+}
+
+.appSkill::before{
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 7.5px;
+  -webkit-border-radius: 7.5px;
+  border-radius: 7.5px;  
+  margin-right: 3%;
+}
+
+.HTML::before{
+  background-color: #afd569;
+}
+
+.JavaScript::before{
+  background-color: #1e44dd;
+}
+
+.PHP::before{
+  background-color: #fce00ccc;
+}
+
+.CSS::before{
+  background-color: #e11f1f;
+}
+
+.Wordpress::before{
+  background-color: #31D2F2;
+}
+
+.appSkill{
+  padding-right: 3%;
+}
+
+.app-button-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px 40px;
+  margin-top: 10px;
+}
+
+.progress{
+  height: 12px !important;
+}
+
+.footer{
+  background-color: #1f2024;
+  height: 60px;
+}
+
+.footer h4{
+  color:white;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif; 
+  margin: 0;
+}
+
+.explore-btn{
+  background-color: #d8dae0 !important;
+
+}
+
+.explore-btn:hover{
+  background-color: #a0a5b1 !important;
+}
+
+.explore-btn-mobile{
+  display: none !important;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-contact{
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .skill-set-row{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .single-skill{
+    margin: 35px 0;
+  }
+
+  .about{
+    flex-direction: column;
+  }
+
+  .about-title{
+    text-align: center;
+  }
+
+  .about-title-p{
+    font-size: 16px;
+  }
+
+  .about-img-wrap{
+    padding: 15px 0; 
+  }
+
+  .apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .apps-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .explore-btn{
+    display: none !important;
+  }
+
+  .apps-header{
+    justify-content: center;
+  }
+
+  .apps-header h2{
+    margin: 0;
+  }
+
+  .app-button-wrap{
+    
+    padding: 0 30%;
+  }
+
+  .explore-btn-mobile{
+    display: block !important;
+    width: 50%;  
+    margin-bottom: 40px;
+    font-weight: 600 !important;
+    background-color: #d8dae0 !important;
+  }
+
+  .footer h4{
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  main{
+    width: 90%;
+    margin: auto;
+  }
+}
+
