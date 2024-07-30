@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89543ba8.css",
+    "main.js": "/static/js/main.a367eaa6.js",
+    "static/media/ps.png": "/static/media/ps.80eef99a4221853ee043.png",
+    "static/media/whattacook.jpg": "/static/media/whattacook.74c5db2272280b583ea0.jpg",
+    "static/media/diazclothes.jpg": "/static/media/diazclothes.81e87b8c3bd4ea2b6e85.jpg",
+    "static/media/aypanda.jpg": "/static/media/aypanda.860b1e393aa90b3e5a48.jpg",
+    "static/media/imagefetch.jpg": "/static/media/imagefetch.c177c0ccb11a7820a282.jpg",
+    "static/media/printhouse.jpg": "/static/media/printhouse.753ee9efcdb1f0b6c932.jpg",
+    "static/media/expenseslist.jpg": "/static/media/expenseslist.398e0d3a18fe411a7791.jpg",
+    "static/media/tasklist.jpg": "/static/media/tasklist.9c51b9f60cc49c77d826.jpg",
+    "static/media/reactrouter.jpg": "/static/media/reactrouter.c663672f31a50e74841a.jpg",
+    "static/media/CV.pdf": "/static/media/CV.3ede00d2d180dc73d42e.pdf",
+    "static/media/under development.jpg": "/static/media/under development.bae8f52b1486fc881ade.jpg",
+    "index.html": "/index.html",
+    "main.89543ba8.css.map": "/static/css/main.89543ba8.css.map",
+    "main.a367eaa6.js.map": "/static/js/main.a367eaa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89543ba8.css",
+    "static/js/main.a367eaa6.js"
+  ]
+}
