@@ -6,7 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareGithub, faLinkedin, faHtml5, faJs, faCss3Alt, faReact, faNode } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase, faIdCard } from '@fortawesome/free-solid-svg-icons';
 import cv from '../pdf/CV.pdf';
-import psImg from '../img/ps.png';
+/*import psImg from '../img/ps.png';*/
+import psImg from '../img/photo_2024-08-02_cv.jpg';
 import imageFetch from '../img/imagefetch.jpg';
 import expensesList from '../img/expenseslist.jpg';
 import taskList from '../img/tasklist.jpg';
@@ -21,7 +22,7 @@ function Home () {
     return(
         <>
             <div className="block header-contact">
-                <p href='/'>– Contact@arturonunez.org –</p> 
+                <a className="text-decoration-none text-white" rel="noreferrer" target='_blank' href='https://www.linkedin.com/in/thearturord'>Contact(at)arturonunez(dot)org</a> 
                 <div>
                 <a title='Github' rel="noreferrer" target='_blank' href='https://github.com/thearturord?tab=repositories'><FontAwesomeIcon icon={faSquareGithub} size='2xl' className="social-icon" /></a>
                 <a title='Linkedin' rel="noreferrer" target='_blank' href='https://www.linkedin.com/in/thearturord'><FontAwesomeIcon icon={faLinkedin} size='2xl' className="social-icon" /></a>
@@ -31,7 +32,7 @@ function Home () {
             <main>
                 <div className="block about">
                     <div className="about-img-wrap">
-                        <img className="img-fluid about-img" src={psImg} alt=""></img>
+                        <img className="img-fluid about-img rounded" src={psImg} alt=""></img>
                     </div>
                     <div className="about-title">
                         <h2>
